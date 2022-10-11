@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color:#1808f5
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -45,7 +45,7 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color:#1808f5;
 }
 .nav-responsive{
     background-color: #1CB698;
@@ -67,7 +67,7 @@ html{
 }
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #1e2326;
+    background-color: #0b0fe0;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -75,7 +75,7 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #1CB698;
+    border: 10px solid #e4dcdf; /* cambia el color del borde de la imagen*/
     display: block;
     width: 80%;
     margin: auto;
@@ -107,8 +107,8 @@ html{
     background-color: #1CB698;
 }
 .sobremi{
-    background-color: #1e2326;
-    color: #fff;
+    background-color: #1808f5;
+    color: rgb(247, 231, 247);
     padding: 50px 20px;
 }
 .sobremi .contenido-seccion{
@@ -128,7 +128,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #fcfafa;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -151,11 +151,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #1CB698; /* cambia el color de los datos*/
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #7ba31e;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -176,7 +176,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color: #1808f5; /* cambia el color del overlay al pasar el cursor*/
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -201,7 +201,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #73b61c; /* cambia el color del overlay al pasar por el boton CV*/
     z-index: -1;
     transition: 1s;
 }
@@ -250,7 +250,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color:#0b0fe0; /* cambia el color de la barra de progreso */
     position: absolute;
     top: 0;
     left: 0;
@@ -260,8 +260,8 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
-    border-radius: 50px;
+    background-color: #0b0fe0; /* cambia el color de las lineas */
+    border-radius: 50px; 
     line-height: 40px;
     text-align: center;
     top: -17px;
@@ -405,30 +405,30 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    color: #ffffff; /* se cambia el color de las materias */
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #1CB698;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid #1808f5 ; /* cambia el color de la fila derecha*/
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #1CB698;
+    border-left: 2px solid #1808f5; /* cambia el color de la fila izquierda*/
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #1808f5; /* cambia el color de la fila intermedia derecha*/
     width: 47px;
     position: absolute;
     top: 50%;
@@ -440,14 +440,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #1808f5; /* cambia el color de la bolita derecha*/
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #1808f5; /* cambia el color de la fila intermedia derecha*/
     width: 47px;
     position: absolute;
     top: 50%;
@@ -459,7 +459,7 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #1808f5; /* cambia el color de la bolita de fila derecha*/
     float: left;
     position: relative;
     bottom: 4px;
@@ -575,7 +575,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #0b0fe0; /*cambia el color del boton de Enviar Mensaje */
     z-index: -1;
     transition: 1s;
 }
@@ -633,8 +633,8 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
-    color: #fff;
+    background-color: #0b0fe0; /*cambia el color del boton Hacia arriba */
+    color: #fff; 
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
