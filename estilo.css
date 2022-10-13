@@ -29,8 +29,9 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color:#1808f5
+    color: #fcfcfc; /* cambia el color del logo*/
     text-decoration: none;
+    
 }
 .contenedor-header header ul{
     display: flex;
@@ -165,8 +166,8 @@ html{
     flex-wrap: wrap;
 }
 .sobremi .fila .col .contenedor-intereses .interes{
-    width: 100px;
-    height: 100px;
+    width: 150px; /* cambia el borde del recuadro*/
+    height: 150px;
     background-color: #252A2E;
     border-radius: 10px;
     margin: 0 15px 15px 0;
